@@ -94,6 +94,15 @@ const Button = styled('button', {
                 display: 'block',
                 width: '100%'
             }
+        },
+        iconOnly: {
+            true: {
+                padding: '5px',
+                aspectRatio: '1/1',
+                'svg': {
+                    marginRight: '0',
+                },
+            }
         }
     }
 });

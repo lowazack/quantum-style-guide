@@ -89,7 +89,6 @@ export default function Buttons(){
                 <Button wire="success">Button</Button>
                 <Button wire="error">Button</Button>
             </FlexGrid>
-
             <FlexGrid>
                 <Button wire="pink">
                     <FontAwesomeIcon icon={faHeart}/>
@@ -118,6 +117,52 @@ export default function Buttons(){
                 <Button wire="error">
                     <FontAwesomeIcon icon={faHeart}/>
                     Button
+                </Button>
+            </FlexGrid>
+            <FlexGrid>
+                <Button color="pink" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="blue" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="yellow" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="orange" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="purple" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="success" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button color="error" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+            </FlexGrid>
+            <FlexGrid>
+                <Button wire="pink" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="blue" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="yellow" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="orange" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="purple" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="success" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
+                </Button>
+                <Button wire="error" iconOnly>
+                    <FontAwesomeIcon icon={faHeart}/>
                 </Button>
             </FlexGrid>
 
