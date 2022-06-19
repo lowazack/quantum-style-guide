@@ -3,21 +3,26 @@ import Button from "../../components/Button";
 import {styled, theme} from "../../stiches.config";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHeart} from "@fortawesome/pro-solid-svg-icons";
+import StyleGuideHeading from "../../components/StyleGuideHeading";
 
 const FillContainer = styled('div', {
     display: 'flex',
     gap: '20px',
     flexWrap: 'wrap',
-    marginBottom: '20px',
+    marginBottom: '10px',
     padding: '20px',
     backgroundColor: theme.colors.offBody,
-    maxWidth: '600px'
+    maxWidth: '500px'
 
 })
 
 export default function Buttons(){
     return (
-        <div>
+        <div id="buttons">
+            <StyleGuideHeading>
+                Buttons
+            </StyleGuideHeading>
+
             <FlexGrid>
                 <Button size="small" color="pink">Button</Button>
                 <Button size="small" color="blue">Button</Button>

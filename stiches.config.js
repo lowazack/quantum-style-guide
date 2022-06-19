@@ -46,6 +46,9 @@ export const {
         },
         transitions: {
             all: `all 300ms ease-in-out`
+        },
+        shadows: {
+            textSolid: `2px 2px 0px #000000`
         }
     },
     media: {
