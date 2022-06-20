@@ -77,6 +77,9 @@ export default function SideNav(){
                 <NavLink href="#buttons">
                     Buttons
                 </NavLink>
+                <NavLink href="#typography">
+                    Typography
+                </NavLink>
             </LinksCont>
 
         </Container>
