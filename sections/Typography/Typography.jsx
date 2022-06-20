@@ -1,6 +1,8 @@
 import StyleGuideHeading from "../../components/StyleGuideHeading";
 import Heading from "../../components/Heading";
 import {styled, theme} from "../../stiches.config";
+import Text from "../../components/Text";
+import Subtitle from "../../components/Subtitle";
 
 const TypeGrid = styled('div', {
     display: 'grid',
@@ -17,6 +19,13 @@ const  TypeDetails = styled('p', {
 const BodyFont = styled('p', {
     color: theme.colors.textPrimary,
     fontSize: theme.fontSizes["1x"].value
+})
+
+const ExampleCont = styled('div', {
+    padding: '20px',
+    backgroundColor: theme.colors.offBody,
+    marginBottom: '20px',
+    maxWidth: '800px'
 })
 
 export default function Typography(){
@@ -62,6 +71,15 @@ export default function Typography(){
                     Inter
                 </TypeDetails>
 
+                <Subtitle>
+                    Subtitle
+                </Subtitle>
+                <TypeDetails>
+                    1.563rem | 25.00px<br/>
+                    Bold | 700<br/>
+                    Inter
+                </TypeDetails>
+
                 <BodyFont>Body Font</BodyFont>
                 <TypeDetails>
                     1rem | 16.00px<br/>
@@ -69,7 +87,25 @@ export default function Typography(){
                     Medium | 500
                 </TypeDetails>
             </TypeGrid>
+            <ExampleCont>
+                <Heading size="6x" style={{marginBottom:'20px'}}>
+                    Example Heading
+                </Heading>
 
+                <Text style={{marginBottom:'20px'}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Text>
+
+                <Heading size="6x">
+                    Example Heading
+                </Heading>
+                <Subtitle style={{marginBottom:'20px'}}>
+                    Subtitle for this section
+                </Subtitle>
+                <Text>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Text>
+            </ExampleCont>
         </div>
     )
 }
