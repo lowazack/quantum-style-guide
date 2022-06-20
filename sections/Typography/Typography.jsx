@@ -29,44 +29,44 @@ export default function Typography(){
             <TypeGrid>
                 <Heading size="6x" as="h1">Heading 6x</Heading>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    3.052rem | 48.83px<br/>
+                    Black | 900<br/>
+                    Inter
                 </TypeDetails>
 
                 <Heading size="5x" as="h2">Heading 5x</Heading>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    2.441rem | 39.06px<br/>
+                    Black | 900<br/>
+                    Inter
                 </TypeDetails>
 
                 <Heading size="4x" as="h3">Heading 4x</Heading>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    1.953rem | 31.25px<br/>
+                    Black | 900<br/>
+                    Inter
                 </TypeDetails>
 
                 <Heading size="3x" as="h4">Heading 3x</Heading>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    1.563rem | 25.00px<br/>
+                    Black | 900<br/>
+                    Inter
                 </TypeDetails>
 
                 <Heading size="2x" as="h5">Heading 2x</Heading>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    1.25rem | 20.00px<br/>
+                    Black | 900<br/>
+                    Inter
                 </TypeDetails>
 
                 <BodyFont>Body Font</BodyFont>
                 <TypeDetails>
-                    size<br/>
-                    weight<br/>
-                    font
+                    1rem | 16.00px<br/>
+                    Inter<br/>
+                    Medium | 500
                 </TypeDetails>
             </TypeGrid>
 
