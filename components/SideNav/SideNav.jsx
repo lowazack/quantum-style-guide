@@ -74,11 +74,14 @@ export default function SideNav(){
             </ImageHead>
 
             <LinksCont>
-                <NavLink href="#buttons">
-                    Buttons
-                </NavLink>
                 <NavLink href="#typography">
                     Typography
+                </NavLink>
+                <NavLink href="#colors">
+                    Colors
+                </NavLink>
+                <NavLink href="#buttons">
+                    Buttons
                 </NavLink>
             </LinksCont>
 
